@@ -6,7 +6,7 @@ pipeline {
             steps {
                 checkout scmGit(
                     branches: [[name: '*/master']],
-                    userRemoteConfigs: [[url: 'https://github.com/oskay6534/TRT.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/oskay6534/cv.git']]
                 )
             }
         }
